@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+.btn {
+    background-color: transparent;
+    color: rgb(10, 57, 132);
+    border: 1px solid rgb(10, 57, 132);
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: all 200ms ease-in-out;
+}
+.btn:hover ,.btn:active {
+    background-color: rgb(10, 57, 132);
+    color: white;
+    border: 1px solid white;
+}
+
+.logo {
+    width: 140px;
+    height: 75px;
+    margin: 0;
+}
+
+.head .navbar{
+    padding: 0px 100px;
+    background-color: white;
+    -webkit-box-shadow: 0px 0.5px 20px rgb(0 0 0/20%);
+    box-shadow: 0px 0.5px 20px rgb(0 0 0/20%);
+    -webkit-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+    
+}
+.navbar-scrolled {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    z-index: 9999;
+    background-color: white;
+    -webkit-animation:500ms ease-in-out 0s normal none 1 running fadeInDown ;
+    animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+}
+@keyframes fadeInDown {
+    0%{
+        top: -30%;
+    }
+    50% {
+        top: -15%;
+    }
+    100% {
+        top: 0;
+    }
+}
+
+.head .navbar-toggler{
+    border: none;
+    box-shadow: none;
+    color: rgb(10, 57, 132);
+    /* line-height: 2; */
+}
+.head .nav-item {
+    margin: 10px;
+}
+.head .nav-item .nav-link {
+    color: rgb(10, 57, 132);
+    font-size: 1rem;
+    font-weight: 600;
+    display: inline-block;
+}
+.head .nav-item .nav-link:hover ,.head .nav-item .nav-link:active {
+    color: #d4af37;
+}
