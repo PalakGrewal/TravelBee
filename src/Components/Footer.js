@@ -3,7 +3,7 @@ import './Footer.css'
 
 const Footer = () => {
   return (
-    <div>
+    <div id='packages'>
           <section className="package-manager">
               <div className="header">
                   <h1>Packages</h1>

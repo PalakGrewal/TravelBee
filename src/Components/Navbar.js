@@ -21,13 +21,13 @@ const Navbar = () => {
                   <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
                       <ul className="navbar-nav menu-nav align-items-center">
                           <li className="nav-item">
-                              <a className="nav-link active" aria-current="page" href="/home">Home</a>
+                              <a className="nav-link active" aria-current="page" href="#home">Home</a>
                           </li>
                           <li className="nav-item">
-                              <a className="nav-link" href="/about">Locations</a>
+                              <a className="nav-link" href="#locations">Locations</a>
                           </li>
                           <li className="nav-item">
-                              <a className="nav-link" href="/rooms">Packages</a>
+                              <a className="nav-link" href="#packages">Packages</a>
                           </li>
                           <li className="nav-item ">
                               <a className="btn" href="/">Contact Us</a>

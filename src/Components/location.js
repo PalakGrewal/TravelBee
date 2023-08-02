@@ -17,7 +17,7 @@ import AnadamanAndNicobarIsland from "./images/Anadman and Nicobar.jpg"
 
 const Location = ()=>{
     return (
-        <div>
+        <div id="locations">
             <h1 style={{"marginTop":"100px", "fontSize":"80px","textAlign":"center", "fontFamily":"serif"}}>Locations</h1>
 
 <section style={{"display": "flex", "flex-direction": "row"}}>

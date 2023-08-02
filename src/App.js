@@ -5,6 +5,12 @@ import SwiperSlides from './Components/Slider/SwiperSlider';
 import Location from "./Components/location"
 import Footer from './Components/Footer';
 
+// import {
+//   BrowserRouter as Router,
+//   Switch,
+//   Link,
+//   Route } from 'react-router-dom';
+
 function App() {
   return (
     <div className="App">
