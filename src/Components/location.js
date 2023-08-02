@@ -18,30 +18,30 @@ import AnadamanAndNicobarIsland from "./images/Anadman and Nicobar.jpg"
 const Location = ()=>{
     return (
         <div>
-            <h1 style={{"marginLeft":"55px","marginTop":"100px", "fontSize":"80px", "fontFamily":"serif"}}>Locations</h1>
+            <h1 style={{"marginTop":"100px", "fontSize":"80px","textAlign":"center", "fontFamily":"serif"}}>Locations</h1>
 
 <section style={{"display": "flex", "flex-direction": "row"}}>
     <article>
         <a href="/"><img class="img" src={Mumbai} alt=""></img></a>
-    <div class="details">
-        <span id="location">Mumbai, India</span>
-        <span id="distance">410 kilometers away</span>
-        <span id="month">June</span>
-        <span id="price">&#8377; 8,545 <span style={{"color": "grey"}}>night</span></span>
-        <span id="rating">&#9733; 4.91</span>
-        <span id="heart">&#9825;</span>
-    </div>
+        <div class="details">
+            <span id="location">Mumbai, India</span>
+            <span id="distance">410 kilometers away</span>
+            <span id="month">June</span>
+            <span id="price">&#8377; 8,545 <span style={{"color": "grey"}}>night</span></span>
+            <span id="rating">&#9733; 4.91</span>
+            <span id="heart">&#9825;</span>
+        </div>
     </article>
     <article>
         <a href="/"><img class="img" src={Delhi} alt=""></img></a>
-    <div class="details">
-        <span id="location">Delhi, India</span>
-        <span id="distance">520 kilometers away</span>
-        <span id="month">May</span>
-        <span id="price">&#8377; 5,979 <span style={{"color": "grey"}}>night</span></span>
-        <span id="rating">&#9733; 4.82</span>
-        <span id="heart">&#9825;</span>
-    </div>
+        <div class="details">
+            <span id="location">Delhi, India</span>
+            <span id="distance">520 kilometers away</span>
+            <span id="month">May</span>
+            <span id="price">&#8377; 5,979 <span style={{"color": "grey"}}>night</span></span>
+            <span id="rating">&#9733; 4.82</span>
+            <span id="heart">&#9825;</span>
+        </div>
     </article>
     <article>
         <a href="/"><img class="img" src={Goa} alt=""></img></a>
@@ -151,7 +151,7 @@ const Location = ()=>{
     <article>
         <a href="/"><img class="img" src={AnadamanAndNicobarIsland} alt=""></img></a>
     <div class="details">
-        <span id="location">Anadman and Nicobar Island, India</span>
+        <span id="location">Andaman and Nicobar Island, India</span>
         <span id="distance">245 kilometers away</span>
         <span id="month">July</span>
         <span id="price">&#8377; 5,979 <span style={{"color": "grey"}}>night</span></span>
